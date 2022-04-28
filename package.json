@@ -1,0 +1,39 @@
+{
+  "name": "2048-everyday",
+  "version": "1.0.0",
+  "source": "./src/index.html",
+  "description": "2048 clone",
+  "scripts": {
+    "start": "parcel",
+    "build": "rimraf ./dist && parcel build --no-source-maps --public-url ./",
+    "style-lint": "stylelint ./src/**.css",
+    "style-lint-fix": "stylelint ./src/**.css --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhuz94/2048-everyday.git"
+  },
+  "keywords": [
+    "2048",
+    "web",
+    "game",
+    "app"
+  ],
+  "author": "abhuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhuz94/2048-everyday/issues"
+  },
+  "homepage": "https://github.com/abhuz94/2048-everyday#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.0.2",
+    "parcel": "^2.5.0",
+    "rimraf": "^3.0.2",
+    "stylelint": "^14.8.0",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}
